@@ -1,6 +1,8 @@
 # Snowfall.nvim
 
-Snowfall is a simple plugin that adds a snowfall effect to your neovim terminal.
+Snowfall is a simple plugin that adds a snowfall effect to your neovim terminal. Works on Kitty Terminal.
+
+https://github.com/user-attachments/assets/0d5fa515-562f-4a06-9468-ca3a1fce72ed
 
 ## Installation
 
