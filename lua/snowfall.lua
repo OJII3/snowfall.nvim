@@ -51,7 +51,10 @@ function M.setup(user_config)
 	config = vim.tbl_deep_extend("force", defaults, user_config or {})
 	renderer.init(namespace, config.snowflake, config.count)
 	register_commands()
-	start_snowfall()
+
+	if config.startup then
+		start_snowfall()
+	end
 end
 
 return M
